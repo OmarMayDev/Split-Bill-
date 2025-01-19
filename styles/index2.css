@@ -1,0 +1,373 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-width: 358px;
+}
+
+html {
+  font-family: Lato, Helvetica, Arial, sans-serif;
+}
+/* prt1 */
+#pprt1 {
+  background-color: hsl(192, 24%, 96%);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.452);
+  padding: 5px;
+}
+
+#pprt1:hover {
+  background-color: hsl(204, 70%, 53%);
+  cursor: pointer;
+}
+
+#pprt1Inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  color: hsl(204, 70%, 53%);
+  font-size: 15px;
+  font-weight: 400;
+}
+
+#logo {
+  width: 200px;
+}
+
+#pprt1Inner:hover {
+  color: white;
+  cursor: pointer;
+}
+
+/* prt2 */
+
+#pprt2 {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.452);
+}
+
+#pprt2Content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px 30px 10px;
+}
+
+#con1,
+#con3 {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  color: grey;
+  align-items: center;
+}
+
+#con1:hover,
+#con3:hover {
+  color: black;
+  cursor: pointer;
+}
+
+#con2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 3px;
+}
+
+#userName {
+  font-size: 12px;
+  font-weight: 400;
+  color: #cccccc;
+}
+
+/* prt3 */
+
+#pprt3Content {
+  display: flex;
+  max-width: 1000px;
+
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 80px;
+  gap: 200px;
+}
+
+@media (max-width: 990px) {
+  #pprt3Content {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+  }
+}
+
+@media (max-width: 434px) {
+  #pprt3Content {
+    padding: 15px;
+  }
+}
+
+#conLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.personBox {
+  background-color: hsl(192, 15%, 94%);
+  padding: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.452);
+}
+
+.personBox:hover {
+  border: 1px solid rgb(52, 152, 219);
+}
+
+#personBoxContent {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#boxcon1 {
+  display: flex;
+  gap: 10px;
+  padding-right: 70px;
+}
+
+#userandBox {
+  display: flex;
+}
+
+#iconHolderBox {
+  width: 39.8px;
+  height: 42px;
+  background-color: hsl(204, 70%, 53%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#nameInput {
+  padding-left: 10px;
+  width: 171.82px;
+  height: 42px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+#nameInput:focus {
+  outline: 1px solid hsl(204, 71%, 62%);
+}
+
+#priceAndNumber {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+}
+
+#price {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#boxcon2 {
+  display: flex;
+  gap: 10px;
+}
+
+#con2Box1,
+#con2Box2 {
+  width: 124.35px;
+  height: 42px;
+  font-size: 15px;
+  font-weight: 400x;
+  padding-left: 10px;
+}
+
+#con2Box1:focus,
+#con2Box2:focus {
+  outline: 1px solid hsl(204, 71%, 62%);
+}
+
+#minusIcon,
+#personIcon {
+  color: grey;
+}
+
+#minusIcon:hover {
+  color: red;
+}
+
+#personIcon:hover {
+  color: hsl(204, 70%, 53%);
+}
+
+#boxcon3 {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border: 1px solid rgba(128, 128, 128, 0.452);
+  gap: 3px;
+  color: grey;
+  align-items: center;
+}
+
+#boxcon3:hover {
+  background-color: hsl(204, 70%, 53%);
+  color: white;
+  cursor: pointer;
+}
+
+/* rightside */
+#conRight {
+  display: flex;
+  align-items: center;
+}
+
+#conRightCon1 {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  text-align: center;
+}
+
+#conRightCon2 {
+  display: none;
+}
+
+#conRightCon3 {
+  display: none;
+}
+
+#conRightCon4 {
+  display: none;
+}
+
+#submitButton {
+  background-color: hsl(204, 70%, 53%);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 48.08px;
+  border: none;
+}
+
+#submitButton:hover {
+  cursor: pointer;
+  background-color: hsl(204, 95%, 62%);
+}
+
+#rightCon3Box1 {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid greenyellow;
+}
+
+#rightCon4Box1 {
+  display: flex;
+  flex-direction: column;
+}
+/* rightsidestyles */
+
+#threeBox1inner,
+#fourBox1inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 40px 10px 40px;
+  background-color: hsl(145, 60%, 59%);
+  color: white;
+}
+
+#threeBox1inner2 {
+  background-color: hsl(145, 62%, 91%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px 5px 10px;
+  gap: 10px;
+  border-bottom: 1px solid greenyellow;
+}
+
+span {
+  color: red;
+}
+
+#userNamePay1,
+#userNamePay2 {
+  display: flex;
+  gap: 4px;
+}
+
+/* popUpIconBox */
+
+.popUpPersonHolder {
+  display: flex;
+  padding-left: 130px;
+  width: 100%;
+  display: none;
+}
+.popUpIconBox {
+  border: 1px solid blue;
+  background-color: white;
+  display: flex;
+  gap: 3px;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.popUp2 {
+  font-size: 14px;
+  color: #2ecc71;
+  font-weight: 400;
+}
+
+.popUp1 {
+  font-weight: 400;
+  font-size: 12px;
+  color: #848484;
+}
+
+.pops {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+/* checkbox */
+.greenCheckedBox {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  background-color: #2ecc71;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.greenCheckedBox:hover,
+.unCheckedBox:hover {
+  cursor: pointer;
+}
+
+.unCheckedBox {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  background-color: hsl(37, 90%, 51%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  display: none;
+}

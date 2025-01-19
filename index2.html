@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index2</title>
+    <script
+      src="https://kit.fontawesome.com/2816875d84.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles/index2.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- prt2 -->
+    <div id="pprt2">
+      <div id="pprt2Content">
+        <div id="con2">
+          <img
+            src="styles/pictures/coollogo_com-7501451.png"
+            id="logo"
+            alt="Logo"
+          />
+          <div id="userName">UserNameHere</div>
+        </div>
+      </div>
+    </div>
+    <!-- prt3 -->
+    <div id="pprt3">
+      <form id="pprt3Content">
+        <div id="conLeft">
+          <div class="personBox">
+            <div id="personBoxContent" class="boxe">
+              <div id="boxcon1">
+                <div id="userandBox">
+                  <div id="iconHolderBox">
+                    <i
+                      class="fa-solid fa-user fa-xs"
+                      style="color: #ffffff"
+                    ></i>
+                  </div>
+                  <input
+                    type="text"
+                    id="nameInput"
+                    class="nameInput"
+                    placeholder="Name"
+                  />
+                </div>
+                <div id="priceAndNumber">
+                  <i class="fa-solid fa-tag fa-sm"></i>
+                  <div id="price" class="price">0</div>
+                </div>
+              </div>
+              <div
+                id="boxcon2"
+                class="boxcon2"
+                style="display: flex; flex-direction: column"
+              >
+                <div
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                  "
+                  id="boxtoClone"
+                  class="boxtoClone"
+                >
+                  <input
+                    type="text"
+                    id="con2Box1"
+                    placeholder="What?"
+                    class="con2Box1"
+                  />
+                  <input
+                    type="number"
+                    id="con2Box2"
+                    placeholder="How much?"
+                    step="0.01"
+                    min="0"
+                    class="con2Box2"
+                  />
+                  <div class="minusIcon">
+                    <i class="fa-solid fa-minus fa-sm" id="minusIcon"></i>
+                  </div>
+                </div>
+              </div>
+              <div id="boxcon3" class="boxcon3">
+                <i class="fa-solid fa-plus fa-sm"></i>
+                <div id="more">More</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="conRight">
+          <div id="conRightCon1">
+            <h1>Who paid what?</h1>
+            <p>
+              Enter the names and how much everyone spent for the group. Add
+              more expenses with the +, remove them with the -.
+            </p>
+          </div>
+          <div id="conRightCon2">
+            <button type="submit" id="submitButton">Calculate & Save!</button>
+          </div>
+          <div id="conRightCon3">
+            <div id="rightCon3Box1">
+              <!-- <div id="threeBox1inner">Who pays whom how much:</div>
+              <div id="threeBox1inner2">
+                <div id="userNamePay1">TestName <span>Pays</span>:</div>
+                <div id="payAmount">0</div>
+                <div id="userNamePay2">
+                  <span>To</span>
+                  <div id="seoncdvalue">TestName</div>
+                </div>
+              </div> -->
+            </div>
+          </div>
+          <div id="conRightCon4">
+            <div id="rightCon4Box1">
+              <div id="fourBox1inner">Who pays whom how much:</div>
+              <div id="sorry">
+                No results to display, your group is even or there is no data
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script src="index.js"></script>
+    <script src="index2.js"></script>
+  </body>
+</html>

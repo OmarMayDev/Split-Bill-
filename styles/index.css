@@ -1,0 +1,203 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Lato", serif;
+}
+/* section1 */
+
+#section1Content {
+  margin: auto;
+  max-width: 1200px;
+  padding: 20px 20px 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#logo {
+  width: 100%;
+}
+
+#s1pHolder {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 40px;
+  color: rgb(52, 152, 219);
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 70px;
+}
+
+/* section1Box */
+#s1box {
+  max-width: 600px;
+}
+
+#ibox1p {
+  background-color: rgb(52, 152, 219);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  gap: 10px;
+}
+
+#ibox1p:hover {
+  cursor: pointer;
+  background-color: hsl(145, 63%, 49%);
+}
+
+#holder {
+  background-color: white;
+  width: 20px;
+  border-radius: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#s1por {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#ibox2p {
+  background-color: rgb(52, 152, 219);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  gap: 10px;
+}
+
+/* innerboxs1 */
+#s1InnerBox3 {
+  background-color: hsl(192, 15%, 94%);
+  padding: 20px;
+  border: 1px solid grey;
+}
+
+#s1InnerBox3:hover {
+  border: 1px solid rgb(52, 152, 219);
+}
+
+#number {
+  font-size: 30px;
+  width: 90px;
+  height: 53px;
+  padding-left: 30px;
+}
+
+#number:focus {
+  outline: 1px solid rgb(52, 152, 219);
+}
+
+#s1InnerBox3Content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+#inner3prt1 {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(52, 73, 94);
+  padding-top: 20px;
+  text-align: center;
+}
+
+/* <!-- innerboxprt2 --> */
+#inner3prt2 {
+  display: flex;
+  gap: 10px;
+}
+
+#minus,
+#plus {
+  width: 50px;
+  height: 53px;
+  background-color: rgb(52, 152, 219);
+  color: white;
+  font-size: 36px;
+  border: none;
+}
+
+#minus:hover,
+#plus:hover {
+  background-color: rgb(54, 171, 249);
+  cursor: pointer;
+}
+
+#holder2 {
+  display: flex;
+}
+
+#userIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 39.8px;
+  height: 53px;
+  background-color: rgb(52, 152, 219);
+}
+
+#inner3prt3 {
+  color: #bdc3c7;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+#inner3part4 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+#Give {
+  font-size: 18px;
+  color: #34495e;
+  font-weight: 400;
+}
+
+#taskName {
+  width: 278.4px;
+  height: 42px;
+  padding-left: 10px;
+}
+
+#go {
+  width: 278.4px;
+  height: 44.16px;
+  font-size: 36px;
+  font-weight: 400;
+  color: white;
+  background-color: hsl(145, 63%, 49%);
+  border: none;
+}
+
+#go:hover {
+  background-color: hsl(145, 95%, 60%);
+  cursor: pointer;
+}

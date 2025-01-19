@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>billzer</title>
+    <script
+      src="https://kit.fontawesome.com/2816875d84.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- section1 -->
+    <div id="section1">
+      <div id="section1Content">
+        <!-- logo -->
+        <div>
+          <img
+            src="styles/pictures/coollogo_com-7501451.png"
+            alt="Logo"
+            id="logo"
+          />
+        </div>
+        <!-- afterlogo -->
+        <div id="s1pHolder">
+          <div id="s1p1">Split bills for shared group expenses.</div>
+          <div id="s1p2">
+            We tell you who owes whom and how to settle debts in groups. This
+            program only splits for groups who payed in all diffrent amounts.
+          </div>
+        </div>
+        <!-- section1Box -->
+        <div id="s1box">
+          <div id="s1Innerbox2"></div>
+          <!-- innerbox3 -->
+          <div id="s1InnerBox3">
+            <form id="s1InnerBox3Content">
+              <div id="inner3prt1" style="padding-bottom: 30px">
+                How many people are in your group?
+              </div>
+              <!-- innerboxprt2 -->
+              <div id="inner3prt2">
+                <button type="button" id="minus">-</button>
+                <div id="holder2">
+                  <div id="userIcon">
+                    <i
+                      class="fa-solid fa-user fa-sm"
+                      style="color: #ffffff"
+                    ></i>
+                  </div>
+                  <input type="number" id="number" />
+                </div>
+                <button type="button" id="plus">+</button>
+              </div>
+              <div id="inner3prt3">
+                People can be excluded from single expenses later
+              </div>
+              <div id="inner3part4">
+                <div id="Give">Give it a name!</div>
+                <input type="text" placeholder="e.g. Roadtrip" id="taskName" />
+              </div>
+              <button type="submit" id="go">GO!</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+    <script src="index2.js"></script>
+  </body>
+</html>
